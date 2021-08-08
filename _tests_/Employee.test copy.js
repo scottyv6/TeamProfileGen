@@ -1,4 +1,4 @@
-const { it, expect } = require('@jest/globals');
+//const { it, expect } = require('@jest/globals');
 //const { describe } = require('yargs');
 const Employee = require('../lib/Employee');
 
@@ -27,25 +27,25 @@ describe('test Employee', () => {
         const expected = "Joe";
         const employee = makeEmployee(expected, 123, "Joe@email.com");
 
-        expect(employee.getName()).toEqual(expected);
+        expect(employee.name).toEqual(expected);
 
     });
 
-    it ('should return id when getId() is called', () => {
+    it ('should return name when getId() is called', () => {
 
         const expected = 345;
         const employee = makeEmployee('Joe', expected, "Joe@email.com");
 
-        expect(employee.getId()).toEqual(expected);
+        expect(employee.id).toEqual(expected);
 
     });
 
-    it ('should return email when getEmail() is called', () => {
+    it ('should return name when getEmail() is called', () => {
 
         const expected = "Joe@email.com";
         const employee = makeEmployee('Joe', 123, expected);
 
-        expect(employee.getEmail()).toEqual(expected);
+        expect(employee.name).toEqual(expected);
 
     });
 
@@ -54,7 +54,7 @@ describe('test Employee', () => {
         const expected = "Employee";
         const employee = makeEmployee();
 
-        expect(employee.getRole()).toEqual(expected);
+        expect(employee.getRole).toEqual(expected);
 
     });
 });
