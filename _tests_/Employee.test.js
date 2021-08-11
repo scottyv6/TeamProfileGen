@@ -49,7 +49,7 @@ describe('test Employee', () => {
 
     });
 
-    it ('should return name when getRole() is called', () => {
+    it ('should return Employee when getRole() is called', () => {
 
         const expected = "Employee";
         const employee = makeEmployee();
