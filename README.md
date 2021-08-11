@@ -7,7 +7,7 @@
   ---
   This app generates an HTML file Showing team information in the form of simple profiles. The user is prompted with a series of questions and the answers are then used to generate the HTML file. 
   Click [here](https://drive.google.com/file/d/1yeIZft4KWqIH6g8yTAaheOq6vGF7li1B/view?usp=sharing) for a video showing the application in use. 
-  A sample of a generated HTML file can be found [here](.\dist\index.html).
+  A sample of a generated HTML file can be found [here](./dist/index.html).
   
   ## Table of Contents
   - [Installation](#installation)
